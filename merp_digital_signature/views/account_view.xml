@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+    <data>
+        <record id="view_invoice_form_xpansa_inherit" model="ir.ui.view">
+            <field name="name">invoice.form.xpansa.inherit</field>
+            <field name="model">account.invoice</field>
+            <field eval="30" name="priority"/>
+            <field name="inherit_id" ref="account.invoice_form"/>
+            <field name="arch" type="xml">
+              <field name="fiscal_position" position="after">
+                <field name="signature" widget="screen_draw" draw_height="150" draw_width="150"/>
+              </field>
+            </field>
+        </record>
+    </data>
+</openerp>

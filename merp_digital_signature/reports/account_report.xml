@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+    <data>
+		<template id="xpansa_invoice_layout" name="xpansa_invoice_layout" inherit_id="account.report_invoice_document">
+			<xpath expr="//div[@class='page']/p[3]" position="after">
+				<img t-if="o.signature" t-att-src="'data:image/png;base64,%s' % o.signature" style="max-height: 135px;"/>
+			</xpath>
+		</template>
+    </data>
+</openerp>
