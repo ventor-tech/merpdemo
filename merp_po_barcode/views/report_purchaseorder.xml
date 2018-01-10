@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+    <data>
+
+        <template id="purchase_order_custom" inherit_id="purchase.report_purchaseorder_document">
+            <xpath expr="//h2[1]" position="replace">
+                 <h2 t-if="o.state != 'draft'">Purchase Order N°<span t-field="o.name"/>
+                     <img t-att-src="'/report/barcode/?type=%s&amp;value=%s&amp;width=%s&amp;height=%s' % ('Code128', o.name, 600, 100)" style="width:300px;height:50px;"/>
+                 </h2>
+            </xpath>
+        </template>
+
+    </data>
+</openerp>
