@@ -1,7 +1,9 @@
 # -*- coding: utf-8 -*-
 {
     'name': 'Demo Barcode Scanner',
-    'version': '1.0',
+    "version": "8.0.1.0.0",
+    'author': 'Ventor, Xpansa Group',
+    'website': 'https://ventor.tech/',
     'category': '',
     "sequence": 14,
     'complexity': "easy",
@@ -16,8 +18,6 @@
         * Now click context menu add top-right corner, click Print - Invoice
         
     """,
-    'author': 'Xpansa Group',
-    'website': 'www.xpansa.com',
     'depends': ["base",'account'],
     'init_xml': [],
     'data': [

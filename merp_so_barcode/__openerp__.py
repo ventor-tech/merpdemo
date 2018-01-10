@@ -1,7 +1,9 @@
 # -*- coding: utf-8 -*-
 {
     'name': 'Barcode on SO Printed Form',
-    'version': '1.0',
+    "version": "8.0.1.0.0",
+    'author': 'Ventor, Xpansa Group',
+    'website': 'https://ventor.tech/',
     'category': '',
     "sequence": 14,
     'complexity': "easy",
@@ -11,8 +13,6 @@
         It is used just for demo purposes
         
     """,
-    'author': 'Xpansa Group',
-    'website': 'www.xpansa.com',
     'depends': ["base",'stock'],
     'init_xml': [],
     'data': [

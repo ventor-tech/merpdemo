@@ -2,7 +2,7 @@
 {
     'name': 'Barcode on PO Printed Form',
     "version": "8.0.1.0.0",
-    'author': 'Ventor',
+    'author': 'Ventor, Xpansa Group',
     'website': 'https://ventor.tech/',
     'category': '',
     "sequence": 14,

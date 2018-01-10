@@ -1,7 +1,9 @@
 # -*- coding: utf-8 -*-
 {
     'name': 'Demo Barcode Scanner',
-    'version': '1.0',
+    "version": "8.0.1.0.0",
+    'author': 'Ventor, Xpansa Group',
+    'website': 'https://ventor.tech/',
     'category': '',
     "sequence": 14,
     'complexity': "easy",
@@ -12,8 +14,6 @@
         Scanner is added to product field in menu Warehouse -> Tracebility -> Stock Moves
         
     """,
-    'author': 'Xpansa Group',
-    'website': 'www.xpansa.com',
     'depends': ["base",'stock'],
     'init_xml': [],
     'data': [
